@@ -1,5 +1,8 @@
 const { Testing } = require('cdktf')
-require('ts-node').register()
+
+if (!process[Symbol.for('ts-node.register.instance')]) {
+    require('ts-node').register()
+}
 
 const MyStack = require('./stack')
 
