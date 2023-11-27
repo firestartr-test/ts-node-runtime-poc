@@ -1,0 +1,6 @@
+{
+  "cdktf": "0.19.1",
+  "providers": {
+    "iam-policy": "5.32.0"
+  }
+}
