@@ -4,5 +4,8 @@ site_description: "Custom documentation"
 nav:
   - Introduction: index.md
 
-plugins:
+plugins:d
   - techdocs-core
+
+
+  asñdjikasñdijasñdjañsldjdasdasdas
